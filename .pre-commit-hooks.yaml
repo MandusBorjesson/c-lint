@@ -1,0 +1,7 @@
+- id: c-lint
+  name: c-lint
+  description: Check C identifier naming conventions
+  entry: c-lint
+  language: rust
+  files: \.(c|h)$
+  types_or: [c, header]
